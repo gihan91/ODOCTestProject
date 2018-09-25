@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C7F87E7F58536B412BD2725 /* Pods_OdocTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC169703BE3A2118B4E4470 /* Pods_OdocTestAppTests.framework */; };
+		90C0DE36F2641A260DE93FBE /* Pods_OdocTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25603D809C4AAB79B9C026E8 /* Pods_OdocTestApp.framework */; };
+		CB3D0F06215A7C2C0083C219 /* DoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D0F05215A7C2C0083C219 /* DoctorModel.swift */; };
+		CB3D0F08215A80250083C219 /* DoctorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D0F07215A80250083C219 /* DoctorDetailsViewController.swift */; };
+		CB3D0F0B215A89F50083C219 /* DoctorDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D0F0A215A89F50083C219 /* DoctorDetailsTableViewCell.swift */; };
+		CB3D0F0E215A8CED0083C219 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D0F0D215A8CED0083C219 /* Constants.swift */; };
 		CB6902D6215A570000F2C732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6902D5215A570000F2C732 /* AppDelegate.swift */; };
-		CB6902D8215A570000F2C732 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6902D7215A570000F2C732 /* ViewController.swift */; };
 		CB6902DB215A570000F2C732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6902D9215A570000F2C732 /* Main.storyboard */; };
 		CB6902DE215A570000F2C732 /* OdocTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB6902DC215A570000F2C732 /* OdocTestApp.xcdatamodeld */; };
 		CB6902E0215A570200F2C732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6902DF215A570200F2C732 /* Assets.xcassets */; };
@@ -27,9 +32,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25603D809C4AAB79B9C026E8 /* Pods_OdocTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OdocTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9441380E299FD75A26F6432A /* Pods-OdocTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OdocTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-OdocTestApp/Pods-OdocTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		A3B994731DD3D36F31CFCACB /* Pods-OdocTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OdocTestAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OdocTestAppTests/Pods-OdocTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7D76C082BE114787E421522 /* Pods-OdocTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OdocTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OdocTestApp/Pods-OdocTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B39367D69CF01E105044C0A1 /* Pods-OdocTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OdocTestAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OdocTestAppTests/Pods-OdocTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB3D0F05215A7C2C0083C219 /* DoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorModel.swift; sourceTree = "<group>"; };
+		CB3D0F07215A80250083C219 /* DoctorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailsViewController.swift; sourceTree = "<group>"; };
+		CB3D0F0A215A89F50083C219 /* DoctorDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		CB3D0F0D215A8CED0083C219 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CB6902D2215A570000F2C732 /* OdocTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OdocTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6902D5215A570000F2C732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB6902D7215A570000F2C732 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB6902DA215A570000F2C732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB6902DD215A570000F2C732 /* OdocTestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OdocTestApp.xcdatamodel; sourceTree = "<group>"; };
 		CB6902DF215A570200F2C732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +51,7 @@
 		CB6902E9215A570300F2C732 /* OdocTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdocTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6902ED215A570300F2C732 /* OdocTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdocTestAppTests.swift; sourceTree = "<group>"; };
 		CB6902EF215A570300F2C732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC169703BE3A2118B4E4470 /* Pods_OdocTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OdocTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C0DE36F2641A260DE93FBE /* Pods_OdocTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +67,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C7F87E7F58536B412BD2725 /* Pods_OdocTestAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6808E3927D92CA1ACFA60964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25603D809C4AAB79B9C026E8 /* Pods_OdocTestApp.framework */,
+				CCC169703BE3A2118B4E4470 /* Pods_OdocTestAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70DDCE0822492D0C348393AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7D76C082BE114787E421522 /* Pods-OdocTestApp.debug.xcconfig */,
+				9441380E299FD75A26F6432A /* Pods-OdocTestApp.release.xcconfig */,
+				B39367D69CF01E105044C0A1 /* Pods-OdocTestAppTests.debug.xcconfig */,
+				A3B994731DD3D36F31CFCACB /* Pods-OdocTestAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB3D0F09215A89CB0083C219 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D0F0A215A89F50083C219 /* DoctorDetailsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CB3D0F0C215A8CDA0083C219 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D0F0D215A8CED0083C219 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		CB6902C9215A570000F2C732 = {
 			isa = PBXGroup;
 			children = (
 				CB6902D4215A570000F2C732 /* OdocTestApp */,
 				CB6902EC215A570300F2C732 /* OdocTestAppTests */,
 				CB6902D3215A570000F2C732 /* Products */,
+				70DDCE0822492D0C348393AC /* Pods */,
+				6808E3927D92CA1ACFA60964 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,11 +133,11 @@
 		CB6902D4215A570000F2C732 /* OdocTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				CB6902D5215A570000F2C732 /* AppDelegate.swift */,
-				CB6902D7215A570000F2C732 /* ViewController.swift */,
-				CB6902D9215A570000F2C732 /* Main.storyboard */,
+				CB6902F8215A570F00F2C732 /* Model */,
+				CB6902F9215A572900F2C732 /* View */,
+				CB6902FA215A572E00F2C732 /* Controller */,
+				CB6902FB215A575100F2C732 /* StoryBoard */,
 				CB6902DF215A570200F2C732 /* Assets.xcassets */,
-				CB6902E1215A570200F2C732 /* LaunchScreen.storyboard */,
 				CB6902E4215A570200F2C732 /* Info.plist */,
 				CB6902DC215A570000F2C732 /* OdocTestApp.xcdatamodeld */,
 			);
@@ -99,6 +153,41 @@
 			path = OdocTestAppTests;
 			sourceTree = "<group>";
 		};
+		CB6902F8215A570F00F2C732 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D0F0C215A8CDA0083C219 /* Constants */,
+				CB3D0F05215A7C2C0083C219 /* DoctorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB6902F9215A572900F2C732 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D0F09215A89CB0083C219 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB6902FA215A572E00F2C732 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB6902D5215A570000F2C732 /* AppDelegate.swift */,
+				CB3D0F07215A80250083C219 /* DoctorDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB6902FB215A575100F2C732 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CB6902E1215A570200F2C732 /* LaunchScreen.storyboard */,
+				CB6902D9215A570000F2C732 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB6902F2215A570300F2C732 /* Build configuration list for PBXNativeTarget "OdocTestApp" */;
 			buildPhases = (
+				AA0589AAA65429133908E97E /* [CP] Check Pods Manifest.lock */,
 				CB6902CE215A570000F2C732 /* Sources */,
 				CB6902CF215A570000F2C732 /* Frameworks */,
 				CB6902D0215A570000F2C732 /* Resources */,
+				F47C60B896BEF377021C4108 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB6902F5215A570300F2C732 /* Build configuration list for PBXNativeTarget "OdocTestAppTests" */;
 			buildPhases = (
+				05C6C04D262CF85BF5321677 /* [CP] Check Pods Manifest.lock */,
 				CB6902E5215A570300F2C732 /* Sources */,
 				CB6902E6215A570300F2C732 /* Frameworks */,
 				CB6902E7215A570300F2C732 /* Resources */,
@@ -195,14 +287,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05C6C04D262CF85BF5321677 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OdocTestAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0589AAA65429133908E97E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OdocTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F47C60B896BEF377021C4108 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OdocTestApp/Pods-OdocTestApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OdocTestApp/Pods-OdocTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB6902CE215A570000F2C732 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6902D8215A570000F2C732 /* ViewController.swift in Sources */,
+				CB3D0F08215A80250083C219 /* DoctorDetailsViewController.swift in Sources */,
 				CB6902D6215A570000F2C732 /* AppDelegate.swift in Sources */,
 				CB6902DE215A570000F2C732 /* OdocTestApp.xcdatamodeld in Sources */,
+				CB3D0F06215A7C2C0083C219 /* DoctorModel.swift in Sources */,
+				CB3D0F0B215A89F50083C219 /* DoctorDetailsTableViewCell.swift in Sources */,
+				CB3D0F0E215A8CED0083C219 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +518,7 @@
 		};
 		CB6902F3215A570300F2C732 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D76C082BE114787E421522 /* Pods-OdocTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +537,7 @@
 		};
 		CB6902F4215A570300F2C732 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9441380E299FD75A26F6432A /* Pods-OdocTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +556,7 @@
 		};
 		CB6902F6215A570300F2C732 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39367D69CF01E105044C0A1 /* Pods-OdocTestAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +578,7 @@
 		};
 		CB6902F7215A570300F2C732 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B994731DD3D36F31CFCACB /* Pods-OdocTestAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

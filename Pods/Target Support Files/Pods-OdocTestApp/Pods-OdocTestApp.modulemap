@@ -1,0 +1,6 @@
+framework module Pods_OdocTestApp {
+  umbrella header "Pods-OdocTestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

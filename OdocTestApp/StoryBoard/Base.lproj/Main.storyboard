@@ -1,24 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Doctor Details View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="DoctorDetailsViewController" customModule="OdocTestApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dDa-Kt-su1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="docCell" rowHeight="104" id="Yuy-eK-AGy" customClass="DoctorDetailsTableViewCell" customModule="OdocTestApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Yuy-eK-AGy" id="Jux-h6-GRd">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pip-m3-gej">
+                                                    <rect key="frame" x="5" y="37" width="30" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="30" id="LpO-q3-j4e"/>
+                                                        <constraint firstAttribute="height" constant="30" id="x0m-Jf-VHC"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCq-a5-wEy">
+                                                    <rect key="frame" x="43" y="43.5" width="35.5" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zG6-xr-Wsj">
+                                                    <rect key="frame" x="288.5" y="46" width="26.5" height="12"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="zG6-xr-Wsj" secondAttribute="trailing" constant="5" id="Iev-lu-3j1"/>
+                                                <constraint firstItem="Pip-m3-gej" firstAttribute="leading" secondItem="Jux-h6-GRd" secondAttribute="leading" constant="5" id="PV2-4G-y0j"/>
+                                                <constraint firstItem="KCq-a5-wEy" firstAttribute="centerY" secondItem="Pip-m3-gej" secondAttribute="centerY" id="e9b-fL-aDv"/>
+                                                <constraint firstItem="Pip-m3-gej" firstAttribute="centerY" secondItem="Jux-h6-GRd" secondAttribute="centerY" id="ejD-VU-zYp"/>
+                                                <constraint firstItem="zG6-xr-Wsj" firstAttribute="centerY" secondItem="KCq-a5-wEy" secondAttribute="centerY" id="lur-LD-8a2"/>
+                                                <constraint firstItem="KCq-a5-wEy" firstAttribute="leading" secondItem="Pip-m3-gej" secondAttribute="trailing" constant="8" id="y12-J1-bbF"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="docNameLabel" destination="KCq-a5-wEy" id="Py0-2q-O13"/>
+                                            <outlet property="docProfilePicImage" destination="Pip-m3-gej" id="880-ga-Wfq"/>
+                                            <outlet property="estimatedTimeLabel" destination="zG6-xr-Wsj" id="dLA-pK-us1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dDa-Kt-su1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="I1h-Az-vpg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dDa-Kt-su1" secondAttribute="trailing" id="cCF-g5-1Im"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dDa-Kt-su1" secondAttribute="bottom" id="h1z-Au-sfn"/>
+                            <constraint firstItem="dDa-Kt-su1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kCM-N6-qNj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="docInfoTableView" destination="dDa-Kt-su1" id="fCS-ud-yCA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-7.5" y="-443.66197183098592"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qL2-kh-cYz">
+            <objects>
+                <viewController id="Q5K-Dp-j4U" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3KW-hh-7fd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="U4t-5t-JWS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xxf-nG-EsZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="-440"/>
         </scene>
     </scenes>
 </document>
