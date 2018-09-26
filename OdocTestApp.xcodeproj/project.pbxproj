@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C7F87E7F58536B412BD2725 /* Pods_OdocTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC169703BE3A2118B4E4470 /* Pods_OdocTestAppTests.framework */; };
 		90C0DE36F2641A260DE93FBE /* Pods_OdocTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25603D809C4AAB79B9C026E8 /* Pods_OdocTestApp.framework */; };
+		CB2ACF6D215B3D3B000E2562 /* ShowDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2ACF6C215B3D3B000E2562 /* ShowDataViewController.swift */; };
 		CB3D0F06215A7C2C0083C219 /* DoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D0F05215A7C2C0083C219 /* DoctorModel.swift */; };
 		CB3D0F08215A80250083C219 /* DoctorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D0F07215A80250083C219 /* DoctorDetailsViewController.swift */; };
 		CB3D0F0B215A89F50083C219 /* DoctorDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D0F0A215A89F50083C219 /* DoctorDetailsTableViewCell.swift */; };
@@ -37,6 +38,7 @@
 		A3B994731DD3D36F31CFCACB /* Pods-OdocTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OdocTestAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OdocTestAppTests/Pods-OdocTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		A7D76C082BE114787E421522 /* Pods-OdocTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OdocTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OdocTestApp/Pods-OdocTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B39367D69CF01E105044C0A1 /* Pods-OdocTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OdocTestAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OdocTestAppTests/Pods-OdocTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB2ACF6C215B3D3B000E2562 /* ShowDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataViewController.swift; sourceTree = "<group>"; };
 		CB3D0F05215A7C2C0083C219 /* DoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorModel.swift; sourceTree = "<group>"; };
 		CB3D0F07215A80250083C219 /* DoctorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailsViewController.swift; sourceTree = "<group>"; };
 		CB3D0F0A215A89F50083C219 /* DoctorDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailsTableViewCell.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			children = (
 				CB6902D5215A570000F2C732 /* AppDelegate.swift */,
 				CB3D0F07215A80250083C219 /* DoctorDetailsViewController.swift */,
+				CB2ACF6C215B3D3B000E2562 /* ShowDataViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				CB3D0F06215A7C2C0083C219 /* DoctorModel.swift in Sources */,
 				CB3D0F0B215A89F50083C219 /* DoctorDetailsTableViewCell.swift in Sources */,
 				CB3D0F0E215A8CED0083C219 /* Constants.swift in Sources */,
+				CB2ACF6D215B3D3B000E2562 /* ShowDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

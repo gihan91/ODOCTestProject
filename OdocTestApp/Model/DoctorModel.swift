@@ -17,6 +17,12 @@ class DoctorModel{
     private var _eventName: String?
     private var _startTime: Date?
     private var _estimatedTime: Date?
+    private var _type: String?
+    private var _sessionId: String?
+    private var _isOpen: Bool?
+    private var _patientId: String?
+    private var _appointmentId: String?
+
 
     init(docId: String,docTitle: String,docFirstName: String,docLastName: String,docProfilePic: String,eventName:String,startTime: Date,estimatedTime: Date) {
         self._doctorId = docId
@@ -27,6 +33,14 @@ class DoctorModel{
         self._eventName = eventName
         self._startTime = startTime
         self._estimatedTime = estimatedTime
+    }
+
+    init(type: String,sessionId: String,isOpen: Bool,patientId: String,appointmentId: String) {
+        self._type = type
+        self._sessionId = sessionId
+        self._isOpen = isOpen
+        self._patientId = patientId
+        self._appointmentId = appointmentId
     }
 
     public var doctorId: String{
@@ -91,6 +105,49 @@ class DoctorModel{
         }
         set{
             _estimatedTime = newValue
+        }
+    }
+    public var type: String{
+        get{
+            return _type!
+        }
+        set{
+            _type = newValue
+        }
+    }
+
+    public var sessionId:String{
+        get{
+            return _sessionId!
+        }
+        set{
+            _sessionId = newValue
+        }
+    }
+
+    public var isOpen: Bool{
+        get{
+            return _isOpen!
+        }
+        set{
+            _isOpen = newValue
+        }
+    }
+
+    public var patientId: String{
+        get{
+            return _patientId!
+        }
+        set{
+            _patientId = newValue
+        }
+    }
+    public var appointmentId: String{
+        get{
+            return _appointmentId!
+        }
+        set{
+            _appointmentId = newValue
         }
     }
 
